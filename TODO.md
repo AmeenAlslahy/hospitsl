@@ -1,0 +1,1 @@
+- [x] Update includes/config.php to use localhost settings for general/local use

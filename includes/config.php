@@ -2,14 +2,14 @@
 
 // إعدادات الموقع
 define('SITE_NAME', 'نظام حجز المستشفيات');
-define('SITE_URL', 'http://your-subdomain.epizy.com');
+define('SITE_URL', 'http://localhost/hospital-system');
 // إعدادات قاعدة البيانات
 // اسم السيرفر
-define('DB_HOST', 'sqlXXX.epizy.com');
+define('DB_HOST', 'localhost');
 // اسم قاعدة البيانات
-define('DB_NAME', 'if0_40403261_hospital_db '); // تم التحديث ليتوافق مع قاعدة البيانات التي تم إنشاؤها
-define('DB_USER', 'if0_40403261'); // تم التحديث ليتوافق مع المستخدم الذي تم إنشاؤه
-define('DB_PASS', 'iAWWPN4W2OnhO'); // تم التحديث ليتوافق مع كلمة المرور التي تم إنشاؤها
+define('DB_NAME', 'hospital_db'); // تم التحديث ليتوافق مع قاعدة البيانات التي تم إنشاؤها
+define('DB_USER', 'root'); // تم التحديث ليتوافق مع المستخدم الذي تم إنشاؤه
+define('DB_PASS', ''); // تم التحديث ليتوافق مع كلمة المرور التي تم إنشاؤها
 
 // إعدادات أخرى
 define('TIMEZONE', 'Asia/Riyadh');
