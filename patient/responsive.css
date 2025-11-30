@@ -1,0 +1,312 @@
+/* ملف CSS محسّن للتصميم المتجاوب - لوحة تحكم المريض */
+
+/* الشاشات الكبيرة (Desktop) */
+@media (min-width: 1200px) {
+    .patient-dashboard .stat-card {
+        padding: 25px;
+    }
+    
+    .patient-dashboard .stat-card p {
+        font-size: 2.8rem;
+    }
+}
+
+/* الشاشات المتوسطة (Tablet) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .patient-dashboard .stat-card {
+        padding: 20px;
+    }
+    
+    .patient-dashboard .stat-card p {
+        font-size: 2.2rem;
+    }
+    
+    .patient-dashboard .stat-card h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* الهواتف الكبيرة (Large Mobile) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .patient-dashboard {
+        padding-top: 1rem;
+    }
+    
+    .patient-dashboard .stat-card {
+        padding: 15px;
+        margin-bottom: 1rem;
+    }
+    
+    .patient-dashboard .stat-card i {
+        font-size: 2.5rem !important;
+        margin-bottom: 10px;
+    }
+    
+    .patient-dashboard .stat-card p {
+        font-size: 2rem;
+    }
+    
+    .patient-dashboard .stat-card h3 {
+        font-size: 1rem;
+    }
+    
+    .appointment-item, .test-item {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .d-flex.justify-content-between .btn {
+        width: 100%;
+    }
+}
+
+/* الهواتف الصغيرة (Small Mobile) */
+@media (max-width: 575px) {
+    body {
+        font-size: 0.95rem;
+    }
+    
+    .patient-dashboard {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .patient-dashboard .stat-card {
+        padding: 12px;
+        margin-bottom: 0.75rem;
+    }
+    
+    .patient-dashboard .stat-card i {
+        font-size: 2rem !important;
+        margin-bottom: 8px;
+    }
+    
+    .patient-dashboard .stat-card h3 {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .patient-dashboard .stat-card p {
+        font-size: 1.75rem;
+        margin: 10px 0;
+    }
+    
+    .patient-dashboard .stat-card .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    
+    .appointment-item, .test-item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-left-width: 3px;
+    }
+    
+    .appointment-item h6, .test-item h6 {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .appointment-item p, .test-item p {
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    .badge-status {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-header {
+        padding: 0.75rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .row {
+        margin-right: -0.5rem;
+        margin-left: -0.5rem;
+    }
+    
+    .col-md-4, .col-lg-6 {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: stretch;
+    }
+    
+    .d-flex.justify-content-between .btn {
+        width: 100%;
+    }
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .btn-sm {
+        padding: 0.4rem 0.75rem;
+        font-size: 0.75rem;
+    }
+    
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    /* تحسينات الجداول */
+    .table {
+        font-size: 0.85rem;
+    }
+    
+    .table th, .table td {
+        padding: 0.5rem;
+    }
+    
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* تحسينات النماذج */
+    .form-control, .form-select {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .form-label {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+/* الهواتف الصغيرة جداً (Extra Small Mobile) */
+@media (max-width: 400px) {
+    .patient-dashboard .stat-card {
+        padding: 10px;
+    }
+    
+    .patient-dashboard .stat-card p {
+        font-size: 1.5rem;
+    }
+    
+    .patient-dashboard .stat-card h3 {
+        font-size: 0.9rem;
+    }
+    
+    .patient-dashboard .stat-card i {
+        font-size: 1.75rem !important;
+    }
+    
+    h1 {
+        font-size: 1.15rem;
+    }
+    
+    .appointment-item, .test-item {
+        padding: 8px;
+    }
+}
+
+/* تحسينات الوصول والتوافقية */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* دعم الشاشات عالية الدقة */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .stat-card, .card, .appointment-item, .test-item {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+    }
+}
+
+/* دعم الوضع المظلم (اختياري) */
+@media (prefers-color-scheme: dark) {
+    .patient-dashboard {
+        background-color: #1a1a1a;
+    }
+    
+    .patient-dashboard .stat-card {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+    
+    .patient-dashboard .stat-card h3 {
+        color: #e0e0e0;
+    }
+    
+    .appointment-item, .test-item {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+    
+    .card {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+    
+    .card-header {
+        background-color: #333;
+        border-bottom-color: #444;
+    }
+}
+
+/* تحسينات إضافية للتوافقية */
+@media (orientation: landscape) and (max-height: 500px) {
+    .patient-dashboard {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .patient-dashboard .stat-card {
+        padding: 10px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .appointment-item, .test-item {
+        margin-bottom: 0.5rem;
+        padding: 8px;
+    }
+}
+
+/* دعم الأجهزة ذات الشقوق (Notch) */
+@supports (padding: max(0px)) {
+    body {
+        padding-left: max(0px, env(safe-area-inset-left));
+        padding-right: max(0px, env(safe-area-inset-right));
+    }
+    
+    .navbar {
+        padding-left: max(0.75rem, env(safe-area-inset-left));
+        padding-right: max(0.75rem, env(safe-area-inset-right));
+    }
+}
