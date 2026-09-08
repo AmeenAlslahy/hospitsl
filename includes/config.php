@@ -7,7 +7,7 @@ define('SITE_URL', 'http://localhost/hospital-system');
 // اسم السيرفر
 define('DB_HOST', 'localhost');
 // اسم قاعدة البيانات
-define('DB_NAME', 'hospital_db'); // تم التحديث ليتوافق مع قاعدة البيانات التي تم إنشاؤها
+define('DB_NAME', 'hospital_management_system'); // تم التحديث ليتوافق مع قاعدة البيانات التي تم إنشاؤها
 define('DB_USER', 'root'); // تم التحديث ليتوافق مع المستخدم الذي تم إنشاؤه
 define('DB_PASS', ''); // تم التحديث ليتوافق مع كلمة المرور التي تم إنشاؤها
 
@@ -16,7 +16,7 @@ define('TIMEZONE', 'Asia/Riyadh');
 date_default_timezone_set(TIMEZONE);
 
 // تجريبي
-define('BASE_PATH', ''); // تم التحديث ليتوافق مع التشغيل على الجذر
+define('BASE_PATH', '/hospital-system'); // مسار المشروع داخل htdocs
 
 // بدء الجلسة
 if (session_status() == PHP_SESSION_NONE) {
